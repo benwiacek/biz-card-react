@@ -6,9 +6,15 @@ import Footer from "./Footer.jsx"
 function App() {
     return (
         <main>
-            <Info />
-            <About />
-            <Interests />
+            <div className="columns">
+                <div className="column-left">
+                    <Info />
+                </div>
+                <div className="column-right">
+                    <About />
+                    <Interests />
+                </div>
+            </div>
             <Footer />
         </main>
     )

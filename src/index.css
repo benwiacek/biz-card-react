@@ -13,7 +13,6 @@ body {
 header {
 	display: flex;
 	flex-direction: column;
-	/* align-items: center; */
 }
 
 
@@ -109,4 +108,57 @@ footer > a {
 	text-decoration: none;
 	color: #f4f1ea;
 	font-size: 1.5rem;
+}
+
+@media (min-width: 600px) {
+	.columns {
+		display: flex;
+	}
+
+	.column-left, .column-right {
+		flex: 1;
+		min-width: 0;
+	}
+
+	h1 {
+		font-size: 2.8rem;
+		margin-bottom: 0.7em;
+	}
+
+	.profile-pic {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.subheading {
+		font-size: 1.5rem;
+	}
+
+	.site-link {
+		font-size: 1.1rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	.links-btns {
+		display: block;
+	}
+
+	.link-btn {
+		font-size: 1.3rem;
+		margin: 1em;
+	}
+
+	section {
+		font-size: 1.3rem;
+		line-height: 1.5;
+	}
+
+	footer {
+		margin: 0;
+		font-size: 2rem;
+	}
+
 }
